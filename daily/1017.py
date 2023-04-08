@@ -3,9 +3,6 @@ class Solution:
     def baseNeg2(self, n: int) -> str:
         """
             有误，无法处理 n = 5 的情况
-
-            当
-
         """
         ind = 0
         count = n
