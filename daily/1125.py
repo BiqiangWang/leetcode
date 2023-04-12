@@ -1,4 +1,4 @@
-from functools import lru_cache
+from functools import cache
 from typing import List
 
 
@@ -12,7 +12,7 @@ class Solution:
                 mask[i] |= 1 << sid[s]  # 位运算
 
         # dfs(i,j) 表示从前 i 个集合中选择一些集合，并集等于 j，需要选择的最小集合
-        @lru_cache
+        @cache
         def dfs(i: int, j: int) -> int:
             if j == 0:
                 return 0  # 背包已装满

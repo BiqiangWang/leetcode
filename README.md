@@ -1,2 +1,2 @@
 # leetcode
-This repository aims to recording my daily coding life
+This repository aims to recording wbq‘s daily coding life
